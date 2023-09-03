@@ -41,8 +41,10 @@ def main():
         b_title = book.find('h2')
         b_link = b_title.parent.get('href')
         b_descrip = b_title.parent.find('span', class_='description__article-main').text.replace('Эксклюзив', '').strip()
+        b_type = book.find('a', class_='section__title').text.strip()
+        b_type_url = book.find('a', class_='section__title').get('href')
 
-        p(b_id, b_title.text.strip(), b_link, b_img, b_descrip)
+        p(b_id, b_title.text.strip(), b_link, b_img, b_descrip, b_type)
 
         row = {}
         row['id'] = b_id
@@ -50,6 +52,8 @@ def main():
         row['url'] = b_link
         row['img'] = b_img
         row['text'] = b_descrip
+        row['type'] = b_type
+        row['type_url'] = b_type_url
 
         links.append(row)
     
