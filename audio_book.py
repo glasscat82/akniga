@@ -37,16 +37,18 @@ def main():
     links = []
     for book in selection_list:
         b_id = book.get('data-id')
+        b_img = book.find('div', class_='pull-left').find('img').get('src')
         b_title = book.find('h2')
-        b_link = b_title.parent.get('href').replace('https://akniga.org/', '')
+        b_link = b_title.parent.get('href')
         b_descrip = b_title.parent.find('span', class_='description__article-main').text.replace('Эксклюзив', '').strip()
-        
-        p(b_id, b_title.text.strip(), b_link, b_descrip)
-        
+
+        p(b_id, b_title.text.strip(), b_link, b_img, b_descrip)
+
         row = {}
         row['id'] = b_id
-        row['title'] = b_title.text.strip()
-        row['slug'] = b_link
+        row['title'] = b_title.text.strip()        
+        row['url'] = b_link
+        row['img'] = b_img
         row['text'] = b_descrip
 
         links.append(row)
