@@ -43,6 +43,7 @@ def main():
         b_descrip = b_title.parent.find('span', class_='description__article-main').text.replace('Эксклюзив', '').strip()
         b_type = book.find('a', class_='section__title').text.strip()
         b_type_url = book.find('a', class_='section__title').get('href')
+        b_autor = book.find('span', class_='link__action link__action--author').find('a')
 
         p(b_id, b_title.text.strip(), b_link, b_img, b_descrip, b_type)
 
@@ -54,6 +55,8 @@ def main():
         row['text'] = b_descrip
         row['type'] = b_type
         row['type_url'] = b_type_url
+        row['autor'] = b_autor.text.strip()
+        row['autor_url'] = b_autor.get('href')
 
         links.append(row)
     
