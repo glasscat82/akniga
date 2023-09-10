@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Фантастика",
+    "slug": "fantasy",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/021/2019/03/23/avatar-blog-21_64x64crop.png"
+  },
+  {
+    "title": "Детективы, триллеры",
+    "slug": "detective",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/022/2019/03/24/avatar-blog-22_64x64crop.png"
+  },
+  {
+    "title": "Роман, проза",
+    "slug": "roman",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/028/2019/03/23/avatar-blog-28_64x64crop.png"
+  },
+  {
+    "title": "Психология, философия",
+    "slug": "psihologiya",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/030/2019/03/24/avatar-blog-30_64x64crop.png"
+  },
+  {
+    "title": "Классика",
+    "slug": "classic",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/032/2019/03/24/avatar-blog-32_64x64crop.png"
+  },
+  {
+    "title": "Ужасы, мистика",
+    "slug": "uzhasy_mistika",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/024/2019/03/24/avatar-blog-24_64x64crop.png"
+  },
+  {
+    "title": "Аудиоспектакли",
+    "slug": "audiospektakli",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/020/2019/03/24/avatar-blog-20_64x64crop.png"
+  },
+  {
+    "title": "Приключения",
+    "slug": "priklucheniya",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/029/2019/03/24/avatar-blog-29_64x64crop.png"
+  },
+  {
+    "title": "История",
+    "slug": "istoriya",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/031/2019/03/24/avatar-blog-31_64x64crop.png"
+  },
+  {
+    "title": "Ранобэ, новеллы",
+    "slug": "ranobe",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/041/2019/03/24/avatar-blog-41_64x64crop.png"
+  },
+  {
+    "title": "Научно-популярное",
+    "slug": "nauchno_populyarnye",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/026/2019/03/24/avatar-blog-26_64x64crop.png"
+  },
+  {
+    "title": "Эзотерика",
+    "slug": "spirituality",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/037/2019/03/24/avatar-blog-37_64x64crop.png"
+  },
+  {
+    "title": "Бизнес",
+    "slug": "business",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/025/2019/03/24/avatar-blog-25_64x64crop.png"
+  },
+  {
+    "title": "Юмор, сатира",
+    "slug": "humor",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/027/2019/03/24/avatar-blog-27_64x64crop.png"
+  },
+  {
+    "title": "Для детей",
+    "slug": "detskie",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/023/2019/03/24/avatar-blog-23_64x64crop.png"
+  },
+  {
+    "title": "Обучение",
+    "slug": "obuchenie",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/035/2019/03/24/avatar-blog-35_64x64crop.png"
+  },
+  {
+    "title": "Биографии, мемуары",
+    "slug": "biography",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/040/2019/03/24/avatar-blog-40_64x64crop.png"
+  },
+  {
+    "title": "Разное",
+    "slug": "raznoe",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/033/2019/03/24/avatar-blog-33_64x64crop.png"
+  },
+  {
+    "title": "Медицина, здоровье",
+    "slug": "health",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/039/2019/03/24/avatar-blog-39_64x64crop.png"
+  },
+  {
+    "title": "На иностранных языках",
+    "slug": "inostrannie",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/034/2019/03/24/avatar-blog-34_64x64crop.png"
+  },
+  {
+    "title": "Религия",
+    "slug": "religion",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/038/2019/03/24/avatar-blog-38_64x64crop.png"
+  },
+  {
+    "title": "Путешествия",
+    "slug": "travel",
+    "img": "https://akniga.org/application/frontend/skin/acl/assets/images/avatars/avatar_blog_64x64crop.png"
+  },
+  {
+    "title": "Поэзия",
+    "slug": "poeziya",
+    "img": "https://akniga.org/uploads/images/blogs/000/000/036/2019/03/24/avatar-blog-36_64x64crop.png"
+  },
+  {
+    "title": "Сказки",
+    "slug": "skazki",
+    "img": "https://akniga.org/uploads/images/blogs/000/096/915/2020/06/20/avatar-blog-96915_64x64crop.png"
+  }
+]

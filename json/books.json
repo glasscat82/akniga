@@ -13,8 +13,8 @@
     "reader_url": "https://akniga.org/performer/%D0%91%D1%83%D0%BB%D0%B4%D0%B0%D0%BA%D0%BE%D0%B2%20%D0%9E%D0%BB%D0%B5%D0%B3/",
     "series": "Созвездие Льва",
     "series_url": "https://akniga.org/series/%D0%A1%D0%BE%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B8%D0%B5%20%D0%9B%D1%8C%D0%B2%D0%B0",
-    "favourite": "71",
-    "counter_number": "119"
+    "favourite": "73",
+    "counter_number": "122"
   },
   {
     "id": "53082",
@@ -30,8 +30,8 @@
     "reader_url": "https://akniga.org/performer/%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%A1%D1%82%D0%B8%D0%BB/",
     "series": null,
     "series_url": null,
-    "favourite": "64",
-    "counter_number": "78"
+    "favourite": "63",
+    "counter_number": "79"
   },
   {
     "id": "53040",
@@ -48,24 +48,7 @@
     "series": "Карты в зеркале (1.3)",
     "series_url": "https://akniga.org/series/%D0%9A%D0%B0%D1%80%D1%82%D1%8B%20%D0%B2%20%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%B5",
     "favourite": "62",
-    "counter_number": "73"
-  },
-  {
-    "id": "52973",
-    "title": "Гаррисон Гарри - Место ожидания (Конечная станция)",
-    "url": "https://akniga.org/garrison-garri-mesto-ozhidaniya-konechnaya-stanciya",
-    "img": "https://akniga.org/uploads/media/topic/2023/08/25/13/preview/7c758f2a6d1d05fc2167_252x350crop.jpg",
-    "text": "Используя передатчик материи, Джемфри направлялся домой. Однако, выйдя из экрана передатчика, он понял, что произошел сбой, и он вовсе не дома, а неизвестно где.",
-    "type": "Фантастика",
-    "type_url": "https://akniga.org/section/fantasy/",
-    "autor": "Гаррисон Гарри",
-    "autor_url": "https://akniga.org/author/%D0%93%D0%B0%D1%80%D1%80%D0%B8%D1%81%D0%BE%D0%BD%20%D0%93%D0%B0%D1%80%D1%80%D0%B8/",
-    "reader": "Гарри Стил",
-    "reader_url": "https://akniga.org/performer/%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%A1%D1%82%D0%B8%D0%BB/",
-    "series": null,
-    "series_url": null,
-    "favourite": "66",
-    "counter_number": "67"
+    "counter_number": "74"
   },
   {
     "id": "53090",
@@ -81,25 +64,8 @@
     "reader_url": "https://akniga.org/performer/%D0%9F%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%20%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD/",
     "series": null,
     "series_url": null,
-    "favourite": "58",
-    "counter_number": "62"
-  },
-  {
-    "id": "53058",
-    "title": "Шекли Роберт - Опытный образец",
-    "url": "https://akniga.org/shekli-robert-opytnyy-obrazec-1",
-    "img": "https://akniga.org/uploads/media/topic/2023/08/31/13/preview/f2849c4ce8e28c5528ae_252x350crop.jpg",
-    "text": "«Миллиарды долларов, вложенные в первое исследование далекой планеты не должны зависеть от человеческого фактора. Именно поэтому Бентли оказался закован в неуничтожимый прототип скафандра „Протект“, каждый раз...",
-    "type": "Фантастика",
-    "type_url": "https://akniga.org/section/fantasy/",
-    "autor": "Шекли Роберт",
-    "autor_url": "https://akniga.org/author/%D0%A8%D0%B5%D0%BA%D0%BB%D0%B8%20%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82/",
-    "reader": "Puffin Cafe",
-    "reader_url": "https://akniga.org/performer/Puffin%20Cafe/",
-    "series": null,
-    "series_url": null,
-    "favourite": "60",
-    "counter_number": "46"
+    "favourite": "56",
+    "counter_number": "63"
   },
   {
     "id": "53030",
@@ -115,8 +81,8 @@
     "reader_url": "https://akniga.org/performer/%D0%A1%D1%82%D0%B5%D0%BF%D0%BD%D0%BE%D0%B9%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80/",
     "series": "Сотрудник агентства «Континенталь» (12)",
     "series_url": "https://akniga.org/series/%D0%A1%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%B0%20%C2%AB%D0%9A%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%C2%BB",
-    "favourite": "72",
-    "counter_number": "42"
+    "favourite": "73",
+    "counter_number": "43"
   },
   {
     "id": "52816",
@@ -133,7 +99,7 @@
     "series": null,
     "series_url": null,
     "favourite": "13",
-    "counter_number": "42"
+    "counter_number": "43"
   },
   {
     "id": "53120",
@@ -149,8 +115,8 @@
     "reader_url": "https://akniga.org/performer/Puffin%20Cafe/",
     "series": null,
     "series_url": null,
-    "favourite": "50",
-    "counter_number": "36"
+    "favourite": "54",
+    "counter_number": "42"
   },
   {
     "id": "53083",
@@ -166,7 +132,7 @@
     "reader_url": "https://akniga.org/performer/%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%A1%D1%82%D0%B8%D0%BB/",
     "series": null,
     "series_url": null,
-    "favourite": "32",
+    "favourite": "34",
     "counter_number": "36"
   },
   {
@@ -200,7 +166,41 @@
     "reader_url": "https://akniga.org/performer/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%20%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB/",
     "series": "Взлетаем немедленно!",
     "series_url": "https://akniga.org/series/%D0%92%D0%B7%D0%BB%D0%B5%D1%82%D0%B0%D0%B5%D0%BC%20%D0%BD%D0%B5%D0%BC%D0%B5%D0%B4%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%21",
-    "favourite": "28",
+    "favourite": "29",
     "counter_number": "30"
+  },
+  {
+    "id": "53063",
+    "title": "Дружинин Александр - Иссык",
+    "url": "https://akniga.org/aleksandr-druzhinin-issyk",
+    "img": "https://akniga.org/uploads/media/topic/2023/09/01/09/preview/f5c7262a3e9054929da8_252x350crop.png",
+    "text": "Лена отправилась в путешествие, в гости к милому, интересному парню. Если бы она знала, что придётся ей пережить на берегах прекрасного, опутанного тайной места — озера «Иссык»…",
+    "type": "Ужасы, мистика",
+    "type_url": "https://akniga.org/section/uzhasy_mistika/",
+    "autor": "Дружинин Александр",
+    "autor_url": "https://akniga.org/author/%D0%94%D1%80%D1%83%D0%B6%D0%B8%D0%BD%D0%B8%D0%BD%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80/",
+    "reader": "Гринберг Родион",
+    "reader_url": "https://akniga.org/performer/%D0%93%D1%80%D0%B8%D0%BD%D0%B1%D0%B5%D1%80%D0%B3%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BE%D0%BD/",
+    "series": null,
+    "series_url": null,
+    "favourite": "33",
+    "counter_number": "29"
+  },
+  {
+    "id": "52812",
+    "title": "Цвейг Стефан - Лионская легенда",
+    "url": "https://akniga.org/cveyg-stefan-lionskaya-legenda",
+    "img": "https://akniga.org/uploads/media/topic/2023/08/15/00/preview/99c0ca48f0690e4e2b1c_252x350crop.jpg",
+    "text": "Действие происходит в 18 веке в павшем Лионе. В этом трогательном рассказе мы узнаем историю молодой пары, оказавшейся в темнице. И только одна ночь отделяет их от казни. \r\n \r\nИстория о всепобеждающей любви…",
+    "type": "Классика",
+    "type_url": "https://akniga.org/section/classic/",
+    "autor": "Цвейг Стефан",
+    "autor_url": "https://akniga.org/author/%D0%A6%D0%B2%D0%B5%D0%B9%D0%B3%20%D0%A1%D1%82%D0%B5%D1%84%D0%B0%D0%BD/",
+    "reader": "Торопов Виталий",
+    "reader_url": "https://akniga.org/performer/%D0%A2%D0%BE%D1%80%D0%BE%D0%BF%D0%BE%D0%B2%20%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9/",
+    "series": null,
+    "series_url": null,
+    "favourite": "36",
+    "counter_number": "27"
   }
 ]

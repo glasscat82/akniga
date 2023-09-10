@@ -22,12 +22,41 @@ def get_html(url_page = None):
         print(sys.exc_info()[1])
         return False
 
-def main():
-    start = datetime.now()	
-
-    # ----- book
-    html_body = get_html('https://akniga.org/index/top/page1/')
+def get_genres(url_page = 'https://akniga.org/sections/'):
+    """ жанры """
+    html_body = get_html(url_page)
+    soup = BeautifulSoup(html_body,'lxml')
+    content_list = soup.find('table', class_='table table-authors js-more-blog-container').find('tbody')
     
+    links = []
+    for genre in content_list.find_all('tr'):
+        g_img =  genre.find('img', class_="title-avatar")
+        g_name =  genre.find('a', class_="name")
+
+        row = {}
+        row['title'] = g_name.text.strip()
+        row['slug'] = (g_name.get('href').replace('https://akniga.org/section/','')).replace('/','')
+        row['img'] = g_img.get('src')
+        links.append(row)
+    
+    return links
+
+def get_performers(url_page = 'https://akniga.org/performers/page1/'):
+    """ исполнители """
+    html_body = get_html(url_page)
+    soup = BeautifulSoup(html_body,'lxml')
+    content_list = soup.find('table', class_='table table-authors js-more-performer-container').find('tbody')
+    
+    links = []
+    for performer in content_list.find_all('tr'):
+        g_name =  performer.find('a', class_="name")
+        links.append(g_name.text.strip())
+    
+    return links 
+
+def get_book(url_page = 'https://akniga.org/index/top/page1/?period=7'):
+    """ список книг """
+    html_body = get_html(url_page)    
     soup = BeautifulSoup(html_body, 'lxml')
     content_list = soup.find('div', class_='content__main__articles')
     
@@ -46,10 +75,13 @@ def main():
         b_autors = book.find_all('span', class_='link__action link__action--author')
         b_favourite = book.find('span', class_='js-favourite-count').text.strip()
         b_counter_number = book.find('span', class_='counter-number').text.strip()
+        b_time = book.find('span', class_='link__action--label--time')
+        b_time_hours = b_time.find('span', class_='hours').text.strip()
+        b_time_minutes = b_time.find('span', class_='minutes').text.strip()
         
         b_series = b_autor = b_reader = None
-        for index, autor in enumerate(b_autors, 0):   
-            
+        for index, autor in enumerate(b_autors, 0):
+
             if index == 0:
                 b_autor = autor.find('a')
             
@@ -78,6 +110,13 @@ def main():
 
         links.append(row)
     
+    return links
+
+def main():
+    start = datetime.now()	
+
+    # ----- book
+    links = get_book(url_page = 'https://akniga.org/index/top/page1/?period=7')    
     write_json(links, './json/books.json')    
     # ----- end book
 
@@ -86,4 +125,14 @@ def main():
 
 
 if __name__ == '__main__':
-	main() 
+    main()
+
+    # genre = get_genres()
+    # write_json(genre, './json/genre.json')
+
+    # perf = get_performers()
+    # write_json(perf, './json/performers.json')
+
+    # for pg in range(214):
+    #     pgc = pg+1
+    #     url_p = f"https://akniga.org/performers/page{pgc}/"
