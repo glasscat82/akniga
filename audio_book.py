@@ -26,7 +26,7 @@ def main():
     start = datetime.now()	
 
     # ----- book
-    html_body = get_html('https://akniga.org/index/top/')
+    html_body = get_html('https://akniga.org/index/top/page1/')
     
     soup = BeautifulSoup(html_body, 'lxml')
     content_list = soup.find('div', class_='content__main__articles')
@@ -43,24 +43,42 @@ def main():
         b_descrip = b_title.parent.find('span', class_='description__article-main').text.replace('Эксклюзив', '').strip()
         b_type = book.find('a', class_='section__title').text.strip()
         b_type_url = book.find('a', class_='section__title').get('href')
-        b_autor = book.find('span', class_='link__action link__action--author').find('a')
+        b_autors = book.find_all('span', class_='link__action link__action--author')
+        b_favourite = book.find('span', class_='js-favourite-count').text.strip()
+        b_counter_number = book.find('span', class_='counter-number').text.strip()
+        
+        b_series = b_autor = b_reader = None
+        for index, autor in enumerate(b_autors, 0):   
+            
+            if index == 0:
+                b_autor = autor.find('a')
+            
+            if index == 1:
+                b_reader = autor.find('a')
 
-        p(b_id, b_title.text.strip(), b_link, b_img, b_descrip, b_type)
+            if index == 2:
+                b_series = autor.find('a')
 
         row = {}
         row['id'] = b_id
-        row['title'] = b_title.text.strip()        
+        row['title'] = b_title.text.strip()
         row['url'] = b_link
         row['img'] = b_img
         row['text'] = b_descrip
         row['type'] = b_type
         row['type_url'] = b_type_url
-        row['autor'] = b_autor.text.strip()
-        row['autor_url'] = b_autor.get('href')
+        row['autor'] = b_autor.text.strip() if b_autor is not None else None
+        row['autor_url'] = b_autor.get('href') if b_autor is not None else None
+        row['reader'] = b_reader.text.strip() if b_reader is not None else None
+        row['reader_url'] = b_reader.get('href') if b_reader is not None else None
+        row['series'] = b_series.text.strip() if b_series is not None else None
+        row['series_url'] = b_series.get('href') if b_series is not None else None
+        row['favourite'] = b_favourite
+        row['counter_number'] = b_counter_number
 
         links.append(row)
     
-    write_json(links, './json/books.json')
+    write_json(links, './json/books.json')    
     # ----- end book
 
     end = datetime.now()
